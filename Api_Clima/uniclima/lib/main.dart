@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:uniclima/screens/home.dart';
 
 void main(){
-  
+  runApp(const UniClima());
 }
 
 class UniClima extends StatelessWidget {
@@ -9,6 +10,10 @@ class UniClima extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: const Home(),
+      title: "UniClima",
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
