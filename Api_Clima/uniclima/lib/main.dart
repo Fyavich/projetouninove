@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uniclima/screens/home.dart';
+import 'package:uniclima/theme/dark_theme.dart';
+import 'package:uniclima/theme/light_theme.dart';
 
 void main(){
   runApp(const UniClima());
@@ -14,6 +16,9 @@ class UniClima extends StatelessWidget {
       home: const Home(),
       title: "UniClima",
       debugShowCheckedModeBanner: false,
+      theme: lightTheme(),
+      darkTheme: darkTheme(),
+      themeMode: ThemeMode.system,
     );
   }
 }
