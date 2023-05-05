@@ -1,0 +1,36 @@
+*Cotação PTAX Compra e Venda Por data                                                                                 'DATA AQUI '
+https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='01-05-2023'&$top=100&$skip=0&$format=json&$select=cotacaoCompra,cotacaoVenda
+
+*Cotações de Moedas
+https://docs.awesomeapi.com.br/api-de-moedas
+
+https://brapi.dev/api/v2/prime-rate
+
+https://brapi.dev/api/v2/prime-rate?country=brazil&historical=false&start=01%2F04%2F2023&end=01%2F05%2F2023&sortBy=date&sortOrder=desc
+
+
+Link
+https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries
+
+*Taxa Selic Meta (série 432)
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/04/2023&dataFinal=01/04/2023
+
+*Inflação Meta (série 13521)
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.13521/dados?formato=json&dataInicial=01/04/2023&dataFinal=01/04/2023
+
+*IPCA - Inflação Corrente (série 13522 - acumulada 12 meses)
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados?formato=json&dataInicial=01/05/2023&dataFinal=01/05/2023
+
+*Ptax
+
+Dollar
+Série 1 - Sale
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/05/2023&dataFinal=01/05/2023
+Série 10813 - Buy
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.10813/dados?formato=json&dataInicial=01/05/2023&dataFinal=01/05/2023
+
+Euro
+Série 21619 - Sale
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.21619/dados?formato=json&dataInicial=01/05/2023&dataFinal=01/05/2023
+Série 21620 - Buy
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.21620/dados?formato=json&dataInicial=01/05/2023&dataFinal=01/05/2023
